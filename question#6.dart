@@ -18,7 +18,7 @@ void main() {
   };
 
   String countryKey = 'Pakistan';
-  Map<String, String> countryInfo = world[countryKey];
+  Map<String, String>? countryInfo = world[countryKey];
 
   if (countryInfo != null) {
     String capitalCity = countryInfo['Capital']!;
